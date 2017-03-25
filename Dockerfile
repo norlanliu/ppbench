@@ -11,3 +11,5 @@ RUN apk update && \
 	rm -rf /var/cache/apk/*
 
 RUN gem install ppbench
+
+CMD ["top"]
